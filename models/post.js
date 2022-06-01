@@ -1,4 +1,4 @@
-const mongoose = require("mongoose");
+const mongoose = require("mongoose")
 
 var postSchema = mongoose.Schema({
   name: String,
@@ -17,6 +17,6 @@ var postSchema = mongoose.Schema({
       ref: "Comment",
     },
   ],
-});
+})
 
-module.exports = mongoose.model("Post", postSchema);
+module.exports = mongoose.model("Post", postSchema)
